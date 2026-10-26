@@ -1,0 +1,60 @@
+const products = [
+  {
+    id: 'watermelon-keychain',
+    category: 'keychains',
+    name: 'Viva la Vida Watermelon Keychain',
+    price: 399,
+    image: '/assets/products/watermelon-keychain.jpg',
+    description: 'A bright watermelon charm, hand-painted with a little sunshine and a cheerful Viva la Vida message.',
+  },
+  {
+    id: 'camera-star-keychain',
+    category: 'keychains',
+    name: 'Camera & Shooting Star Keychain',
+    price: 599,
+    image: '/assets/products/camera-star-keychain.png',
+    description: 'A tiny black camera and silvery star for the friend who loves collecting little moments.',
+  },
+  {
+    id: 'pink-giraffe-charm',
+    category: 'charms',
+    name: 'Pink Heart Giraffe Charm',
+    price: 499,
+    image: '/assets/products/pink-giraffe-charm.png',
+    description: 'A sweet, hand-sculpted pink giraffe with tiny hearts and rosy details.',
+  },
+  {
+    id: 'flower-headphones-keychain',
+    category: 'keychains',
+    name: 'Flower & Headphones Keychain',
+    price: 699,
+    image: '/assets/products/flower-headphones-keychain.png',
+    description: 'A playful bouquet and mini headphones charm in soft pink, white, and gold.',
+  },
+  {
+    id: 'storytime-keychain',
+    category: 'keychains',
+    name: 'Storytime Keepsake Keychain',
+    price: 799,
+    image: '/assets/products/storytime-keychain.png',
+    description: 'A tiny storybook mix of a star, a cassette, and a hand-lettered alphabet charm.',
+  },
+  {
+    id: 'blue-camera-charms',
+    category: 'charms',
+    name: 'Blue Camera & Polaroid Charms',
+    price: 549,
+    image: '/assets/products/blue-camera-charms.png',
+    description: 'Mini blue cameras and picture charms, made for memory keepers and photo lovers.',
+  },
+  {
+    id: 'headphones-phone-charm',
+    category: 'phone charms',
+    name: 'Little Headphones Phone Charm',
+    price: 299,
+    image: '/assets/products/headphones-phone-charm.png',
+    description: 'A glossy black headphones charm with a tiny burgundy heart and a soft wrist loop.',
+  },
+];
+
+export default products;
