@@ -30,7 +30,7 @@ export function CartProvider({ children }) {
     window.addEventListener('storage', syncCart);
     return () => window.removeEventListener('storage', syncCart);
   }, []);
-  const addItem = id => setItems(current => ({ ...current, [id]: (current[id] || 0) + 1 }));
+  const addItem = (id, quantity = 1) => setItems(current => ({ ...current, [id]: (current[id] || 0) + Math.max(1, Math.floor(Number(quantity) || 1)) }));
   const setQuantity = (id, quantity) => setItems(current => {
     const next = { ...current };
     if (quantity > 0) next[id] = quantity;
