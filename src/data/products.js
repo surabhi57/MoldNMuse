@@ -96,6 +96,32 @@ const products = [
       { name: 'Sia Fernandes', rating: 4, date: '2026-06-21', comment: 'Really sweet charm and the burgundy heart is a lovely detail.' },
     ],
   }),
+  makeProduct({
+    id: 'blue-sky-polaroid-earrings', category: 'earrings', name: 'Blue Sky Polaroid Earrings', price: 449,
+    image: '/assets/products/polaroid-earrings.jpg',
+    description: 'Mini polaroid-style clay earrings with a hand-painted blue sky, tiny birds and a handwritten caption.',
+    longDescription: 'Little snapshots of a blue-sky day, shaped and painted by hand in soft blue and white clay. Tiny birds and a handwritten caption make each pair feel like a miniature keepsake, and the caption can be personalized just for you.',
+    details: { size: 'About 3 cm', material: 'Polymer clay', finish: 'Glossy protective glaze', hangingType: 'Gold-tone hooks', handmadeTime: 'Made in 3 to 4 days' },
+    customization: 'The handwritten caption can be customized with a short name, date, or little message.', rating: 4.9,
+    reviews: [
+      { name: 'Ishani Desai', rating: 5, date: '2026-09-18', comment: 'The tiny sky and birds are so lovely. They feel light to wear and came beautifully packed.' },
+      { name: 'Sakshi Malhotra', rating: 5, date: '2026-08-29', comment: 'I had my initials added to the caption and they turned out just how I imagined.' },
+      { name: 'Nandita Rao', rating: 4, date: '2026-07-16', comment: 'Such a sweet design and the hand-painted details are really neat.' },
+    ],
+  }),
+  makeProduct({
+    id: 'disco-star-charm-keychain', category: 'keychains', name: 'Disco Star Charm Keychain', price: 649,
+    image: '/assets/products/charm-keychain.jpg',
+    description: 'A glossy charm cluster with a burgundy star, checkered disco ball, crystal shard and red lip charm on a silver chain.',
+    longDescription: 'A little party for your keys or favourite bag, with a deep burgundy star, a checkered disco ball, a crystal shard, and a glossy red lip charm. Each piece is sculpted and assembled by hand on a silver-tone chain, so every cluster has its own playful character.',
+    details: { size: 'Chain about 12 cm', material: 'Polymer clay and metal findings', finish: 'Glossy glaze', hangingType: 'Silver chain with lobster clasp', handmadeTime: 'Made in 3 to 4 days' },
+    customization: 'Ask for a different star colour or a small initial charm when placing a custom request.', rating: 4.8,
+    reviews: [
+      { name: 'Prisha Menon', rating: 5, date: '2026-09-22', comment: 'The disco ball catches the light so nicely, and the whole charm feels wonderfully fun.' },
+      { name: 'Ayesha Qureshi', rating: 5, date: '2026-08-31', comment: 'I love all the tiny details. It looks gorgeous clipped to my everyday tote.' },
+      { name: 'Mitali Sen', rating: 4, date: '2026-07-20', comment: 'A unique little statement piece, carefully made and packaged with care.' },
+    ],
+  }),
 ];
 
 export default products;
